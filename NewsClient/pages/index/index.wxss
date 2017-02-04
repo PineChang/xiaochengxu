@@ -1,0 +1,21 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+/**rpx单位为屏幕上的实际点,而非像素点**/
+.userinfo-avatar {
+  width: 150rpx;
+  height: 150rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aa1;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
